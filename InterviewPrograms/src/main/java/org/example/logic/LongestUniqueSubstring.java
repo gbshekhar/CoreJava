@@ -11,7 +11,7 @@ public class LongestUniqueSubstring {
         //start: Marks the beginning of the sliding window.
         int maxLength =0, start = 0;
         //Keep track of the actual position of the longest substring.
-        int startIndex = 0, endIndex = 0;
+        int startIndex = 0;
         //Iterates over the string, checking each character's occurrence in the sliding window
         for(int index=0; index < s.length(); index++){
             //Extracts the current character at position index.
@@ -28,11 +28,10 @@ public class LongestUniqueSubstring {
             if (index - start + 1 > maxLength) {
                 maxLength = index - start + 1;
                 startIndex = start;
-                endIndex = index;
             }
         }
         //Extracts and returns the longest unique substring found.
-        return s.substring(startIndex, endIndex + 1);
+        return s.substring(startIndex, startIndex + maxLength);
     }
 
     public static void main(String[] args) {
