@@ -1,18 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="685f5f7b-3f32-40b5-a408-f4a1ff63f4fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/InterviewPrograms/src/main/java/org/example/logic/LongestUniqueSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InterviewPrograms/src/main/java/org/example/logic/MergeTwoSortedArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InterviewPrograms/src/main/java/org/example/logic/PalindromeCheckOptimized.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InterviewPrograms/src/main/java/org/example/logic/PalindromeCheckUsingString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InterviewPrograms/src/main/java/org/example/logic/SameCharactersCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InterviewPrograms/src/main/java/org/example/utility/SetUtilityMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InterviewPrograms/src/main/java/org/example/collections/RehashingDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InterviewPrograms/src/main/java/org/example/logic/CustomSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InterviewPrograms/src/main/java/org/example/logic/RomanToInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InterviewPrograms/src/main/java/org/example/logic/UniqueNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InterviewPrograms/src/main/java/org/example/streams/ConvertToStringList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InterviewPrograms/src/main/java/org/example/streams/FilterEvenOdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InterviewPrograms/src/main/java/org/example/streams/HighestGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InterviewPrograms/src/main/java/org/example/streams/SpliteratorDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,13 +44,95 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ConvertToStringList.executor": "Run",
+    "Application.FilterEvenOdd.executor": "Run",
+    "Application.HighestGroup.executor": "Run",
+    "Application.RehashingDemo.executor": "Run",
+    "Application.SpliteratorDemo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/CoreJavaWorkSpace"
+    "last_opened_file_path": "D:/Bheem_Git/CoreJava"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.HighestGroup">
+    <configuration name="ConvertToStringList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.streams.ConvertToStringList" />
+      <module name="InterviewPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FilterEvenOdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.streams.FilterEvenOdd" />
+      <module name="InterviewPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HighestGroup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.streams.HighestGroup" />
+      <module name="InterviewPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RehashingDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.collections.RehashingDemo" />
+      <module name="InterviewPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpliteratorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.streams.SpliteratorDemo" />
+      <module name="InterviewPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HighestGroup" />
+        <item itemvalue="Application.ConvertToStringList" />
+        <item itemvalue="Application.RehashingDemo" />
+        <item itemvalue="Application.SpliteratorDemo" />
+        <item itemvalue="Application.FilterEvenOdd" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
